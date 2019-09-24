@@ -372,10 +372,10 @@
   (def conn (connect {:db "postgres"
                       :user "postgres"
                       :host "localhost"
-                      :port 5439
-                      :password "postgres"}))
+                      :port 5432
+                      :password "mysecretpassword"}))
 
-  (.close conn)
+  (.close conn)1
 
   conn
 
