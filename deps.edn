@@ -9,7 +9,9 @@
         route-map                      {:mvn/version "0.0.7-RC4"}
         ring                           {:mvn/version "1.7.1"}
         ring/ring-defaults             {:mvn/version "0.3.2"}
-
+        org.testcontainers/testcontainers {:mvn/version "1.12.2"}
+        org.testcontainers/postgresql {:mvn/version "1.12.2"}
+        
         ;; db deps
         ;; org.clojure/java.jdbc          {:mvn/version "0.7.9"}
         ;; com.zaxxer/HikariCP            {:mvn/version "3.3.1"}
@@ -18,9 +20,7 @@
         honeysql                       {:mvn/version "0.9.4"}
         funcool/promesa {:mvn/version "3.0.0"}
 
-        zprint {:mvn/version "0.4.16"}
-
-        }
+        zprint {:mvn/version "0.4.16"}}
  :aliases
  {:nrepl
   {:extra-paths ["dev" "ui/build.dev" "test"]
